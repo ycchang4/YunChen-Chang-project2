@@ -105,13 +105,6 @@ npm run dev
    - **Start Command**: `npm run preview` or use a static site
    - **Environment**: Node
 
-### Deploying to Netlify
-
-1. Push your code to GitHub
-2. Connect your repository to [Netlify](https://netlify.com)
-3. Build settings:
-   - **Build Command**: `npm run build`
-   - **Publish Directory**: `dist`
 
 ## Future Enhancements
 
