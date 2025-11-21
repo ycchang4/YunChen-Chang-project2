@@ -97,13 +97,7 @@ npm run dev
 
 ### Deploying to Render
 
-1. Push your code to GitHub
-2. Create a new Web Service on [Render](https://render.com)
-3. Connect your GitHub repository
-4. Use these settings:
-   - **Build Command**: `npm install && npm run build`
-   - **Start Command**: `npm run preview` or use a static site
-   - **Environment**: Node
+https://sudoku-3ue3.onrender.com
 
 
 ## Future Enhancements
