@@ -20,7 +20,7 @@ export default function Selection() {
   };
 
   return (
-    <div className="container selection">
+    <div className="container">
       <h1>Select a Game</h1>
       <ul className="game-list" style={{ lineHeight: "1.8", color: "rgb(85, 60, 20)", fontSize: "1.1rem" }}>
         {games.map((game, idx) => (

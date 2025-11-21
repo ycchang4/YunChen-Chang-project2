@@ -15,7 +15,7 @@ export default function Register() {
       alert("Passwords do not match!");
       return;
     }
-    // Registration logic here
+   
     alert(`Registered as: ${username}`);
   };
 

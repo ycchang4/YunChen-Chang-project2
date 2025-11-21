@@ -10,15 +10,15 @@ export default function Login() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // You can add authentication logic here
+    
     alert(`Logging in as: ${username}`);
   };
 
   return (
-    <div>
+    <div className="container">
   
       {/* Login form */}
-      <div className="container">
+      <div>
         <h1>Login</h1>
         <div className="form-container">
           <form onSubmit={handleSubmit}>

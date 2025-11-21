@@ -1,7 +1,7 @@
 // src/pages/Home.jsx
 import React from "react";
 import { Link } from "react-router-dom";
-import "../assets/style.css"; // Make sure this includes your navbar and .home styles
+import "../assets/style.css"; 
 
 export default function Home() {
   return (

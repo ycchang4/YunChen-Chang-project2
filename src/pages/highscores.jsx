@@ -1,11 +1,11 @@
 // src/pages/HighScores.jsx
 import React from "react";
 import { Link } from "react-router-dom";
-import "../assets/style.css";           // your global CSS
-import "../assets/highscores-style.css"; // highscores-specific CSS
+import "../assets/style.css";           
+import "../assets/highscores-style.css"; 
 
 export default function HighScores() {
-  // Optional: dynamic scores in the future
+  
   const scores = [
     { rank: 1, username: "Sudoku4life", score: 20 },
     { rank: 2, username: "tiffnyaaa", score: 19 },

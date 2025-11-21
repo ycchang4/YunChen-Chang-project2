@@ -2,7 +2,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Selection from "./pages/selection";
-import Sudoku from "./pages/sudoku"; // Add this import
+import Sudoku from "./pages/sudoku"; 
 import HighScores from "./pages/highscores";
 import Rules from "./pages/rules";
 import Login from "./pages/login";
@@ -14,16 +14,21 @@ function App() {
   return (
     <Router>
       <SudokuProvider>
+        {/* NavBar will be sticky and span full width */}
         <NavBar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/selection" element={<Selection />} />
-          <Route path="/sudoku" element={<Sudoku />} /> {/* Add this route */}
-          <Route path="/highscores" element={<HighScores />} />
-          <Route path="/rules" element={<Rules />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
-        </Routes>
+        
+        {/* Container centers the content */}
+        <div>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/selection" element={<Selection />} />
+            <Route path="/sudoku" element={<Sudoku />} />
+            <Route path="/highscores" element={<HighScores />} />
+            <Route path="/rules" element={<Rules />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+          </Routes>
+        </div>
       </SudokuProvider>
     </Router>
   );

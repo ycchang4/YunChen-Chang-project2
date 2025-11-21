@@ -6,10 +6,10 @@ import "../assets/rules-style.css";
 
 export default function Rules() {
   return (
-    <div>
+    <div className="container">
 
       {/* Rules content */}
-      <div className="container">
+      <div>
         <h1>Sudoku Rules</h1>
         <ul className="rules">
           <li>The classic Sudoku puzzle consists of a 9x9 grid divided into 9 smaller 3x3 boxes.</li>
@@ -24,7 +24,7 @@ export default function Rules() {
       {/* Made By section */}
       <div className="container" id="made-by">
         <h1>Made By</h1>
-        <p style={{ fontSize: "1.1rem", color: "rgb(85,60,20)", textAlign: "center", lineHeight: "1.8" }}>
+        <p>
           This project was made by <strong>Grace (Yun Chen) Chang</strong>.
         </p>
         <div style={{ textAlign: "center", marginTop: "1.5rem" }}>

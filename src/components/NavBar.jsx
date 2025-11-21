@@ -1,6 +1,6 @@
 // src/components/NavBar.jsx
 import { Link, useLocation } from "react-router-dom";
-import "../assets/style.css"; // import your existing CSS
+import "../assets/style.css"; 
 
 export default function NavBar() {
   const location = useLocation(); // get current path to highlight active link
