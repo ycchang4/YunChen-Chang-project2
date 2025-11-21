@@ -136,11 +136,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 Grace - Computer Science Master's Student at Northeastern University
 
-## Acknowledgments
-
-- React team for the amazing framework
-- Anthropic's Claude for development assistance
-- Book titles and authors used for thematic elements
 
 ---
 
