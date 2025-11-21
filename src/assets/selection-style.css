@@ -1,0 +1,29 @@
+.game-list {
+    list-style: decimal inside;
+    padding-left: 0;
+}
+
+.game-list li {
+    margin-bottom: 12px;
+    padding: 8px 10px;
+    background-color: rgba(255, 235, 205, 0.6);
+    border-left: 5px solid rgb(145, 93, 30);
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.game-list li:hover {
+    background-color: rgba(242, 228, 207, 0.9);
+    transform: translateX(5px);
+}
+
+.game-link {
+    text-decoration: none;
+    color: rgb(104, 104, 13);
+    font-weight: 600;
+}
+
+.game-link:hover {
+    text-decoration: underline;
+    color: rgb(145, 93, 30);
+}
